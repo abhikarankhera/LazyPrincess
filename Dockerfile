@@ -11,7 +11,7 @@
 # COPY start.sh /start.sh
 # CMD ["/bin/bash", "/start.sh"]
 
-FROM python:3.8-slim-buster
+FROM python:3.10.8
 
 RUN apt update && apt upgrade -y
 RUN apt install git -y
